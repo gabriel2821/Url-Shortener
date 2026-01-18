@@ -10,7 +10,7 @@ def create_app():
         CORSMiddleware,
         allow_origins=[
             "http://localhost:5173", 
-            "http://localhost:3000"   
+            "https://url-shortener-blush-phi.vercel.app"   
         ],
         allow_credentials=True,
         allow_methods=["*"],

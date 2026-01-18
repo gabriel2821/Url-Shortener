@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000";
+const API_URL = "https://url-shortener-backend-m6t9.onrender.com";
 
 export async function shortenUrl(originalUrl: string) {
   const response = await fetch(`${API_URL}/shorten`, {

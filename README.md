@@ -52,6 +52,9 @@ url-shortener/
 
 ---
 
+**Live demo:**
+https://url-shortener-blush-phi.vercel.app/
+
 ## How to Run Locally
 
 ### Backend
@@ -80,5 +83,7 @@ http://localhost:5173
 #API Endpoints
 POST /shorten – Create a short URL
 GET /{short_code} – Redirect to original URL
+
+
 
 
